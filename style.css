@@ -1,3 +1,7 @@
+html * {
+    font-family: sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;   
@@ -14,6 +18,27 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-subtext {
+    font-size: 15px;
+    color: #b3b7bf;
+}
+
+.header-button {
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -31,5 +56,16 @@ a {
 
 .container1 {
     display: flex;
+    padding: 100px;
     justify-content: center;
+    align-items: center;
+}
+
+.mini-container1 {
+    margin-right: 50px;
+}
+
+.mini-container2 img{
+    width: 500px;
+    height: 350px;
 }
