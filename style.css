@@ -116,3 +116,21 @@ a {
     width: 250px;
     margin: 10px 0px;
 }
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 400px 50px 400px;
+}
+.section3 p {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 20px;
+    color: black;
+}
+
+.section3 b {
+    text-align: right;
+}
