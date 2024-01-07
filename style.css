@@ -19,21 +19,29 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    align-items: center;
 }
 
 .header-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .header-subtext {
     font-size: 15px;
     color: #b3b7bf;
+    margin: 5px 0px 10px 0px;
 }
 
-.header-button {
-
+button.header-button {
+    color: white;
+    background-color: #3882F6;
+    padding: 7px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
 }
 
 .logo {
@@ -51,7 +59,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(216, 213, 213);
+    color: #b3b7bf;
 }
 
 .container1 {
@@ -63,6 +71,7 @@ a {
 
 .mini-container1 {
     margin-right: 50px;
+    flex-basis: 400px;
 }
 
 .mini-container2 img{
