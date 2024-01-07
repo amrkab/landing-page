@@ -134,3 +134,47 @@ a {
 .section3 b {
     text-align: right;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.section4 {
+    margin: 100px 375px;
+    padding: 50px;
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.section4 p{
+    color: #b3b7bf;
+    margin: 5px 0px 0px 0px;
+}
+
+.section4 h3{
+    margin: 0;
+}
+
+.cta-button-container {
+    margin-left: 100px;
+    margin-right: 100px;;
+}
+
+.cta {
+    padding-right: 100px;
+}
+
+.cta-button-container button {
+    border-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    padding: 8px 20px;
+    white-space: nowrap;
+}
+
