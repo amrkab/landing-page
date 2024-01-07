@@ -178,3 +178,9 @@ a {
     white-space: nowrap;
 }
 
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 12px;
+    color: #b3b7bf;
+}
